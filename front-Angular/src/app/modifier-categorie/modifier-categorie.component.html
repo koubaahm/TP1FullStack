@@ -6,7 +6,7 @@
         <label for="nom" class="form-label">Nom de la catégorie</label>
         <input type="text" id="nom" formControlName="nom" class="form-control" />
         <div *ngIf="categorieForm.get('nom')?.invalid && categorieForm.get('nom')?.touched" class="text-danger">
-          Le nom est requis.
+          Le nom est requis
         </div>
       </div>
 
